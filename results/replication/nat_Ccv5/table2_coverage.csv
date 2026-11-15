@@ -1,0 +1,11 @@
+dataset,shift,standard,estimated
+Libras,Natural,0.900 ± 0.042,0.901 ± 0.043
+RacketSports,Natural,0.912 ± 0.037,0.910 ± 0.038
+NATOPS,Natural,0.933 ± 0.038,0.940 ± 0.038
+ArticularyWordRecognition,Natural,0.930 ± 0.028,0.930 ± 0.028
+BasicMotions,Natural,0.915 ± 0.078,0.917 ± 0.078
+Cricket,Natural,0.896 ± 0.055,0.896 ± 0.055
+Epilepsy,Natural,0.918 ± 0.050,0.931 ± 0.046
+ERing,Natural,1.000 ± 0.000,1.000 ± 0.000
+SelfRegulationSCP1,Natural,0.850 ± 0.040,0.900 ± 0.054
+UWaveGestureLibrary,Natural,0.912 ± 0.044,0.912 ± 0.044

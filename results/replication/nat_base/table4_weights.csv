@@ -1,0 +1,11 @@
+dataset,shift,ess_ratio,max_weight
+Libras,Natural,0.839 ± 0.053,0.029 ± 0.007
+RacketSports,Natural,0.466 ± 0.119,0.089 ± 0.047
+NATOPS,Natural,0.421 ± 0.080,0.080 ± 0.036
+ArticularyWordRecognition,Natural,0.514 ± 0.105,0.052 ± 0.025
+BasicMotions,Natural,0.705 ± 0.066,0.119 ± 0.023
+Cricket,Natural,0.399 ± 0.105,0.136 ± 0.061
+Epilepsy,Natural,0.629 ± 0.106,0.065 ± 0.027
+ERing,Natural,0.468 ± 0.154,0.292 ± 0.121
+SelfRegulationSCP1,Natural,0.178 ± 0.034,0.100 ± 0.025
+UWaveGestureLibrary,Natural,0.746 ± 0.115,0.058 ± 0.024

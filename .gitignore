@@ -1,0 +1,19 @@
+# data (download with download_data.py)
+data/
+data_synthetic/
+results_synthetic/
+results_new/
+
+# run logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+.venv/
+
+# OS
+.DS_Store

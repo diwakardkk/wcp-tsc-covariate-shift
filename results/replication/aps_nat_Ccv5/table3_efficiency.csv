@@ -1,0 +1,21 @@
+dataset,shift,method,mean_size,singleton_rate
+Libras,Natural,standard,4.643 ± 1.270,0.381 ± 0.098
+Libras,Natural,estimated,4.654 ± 1.267,0.380 ± 0.097
+RacketSports,Natural,standard,1.711 ± 0.233,0.529 ± 0.098
+RacketSports,Natural,estimated,1.707 ± 0.226,0.527 ± 0.097
+NATOPS,Natural,standard,1.534 ± 0.263,0.714 ± 0.081
+NATOPS,Natural,estimated,1.757 ± 0.420,0.669 ± 0.106
+ArticularyWordRecognition,Natural,standard,4.242 ± 1.134,0.579 ± 0.064
+ArticularyWordRecognition,Natural,estimated,4.242 ± 1.134,0.579 ± 0.064
+BasicMotions,Natural,standard,1.630 ± 0.503,0.397 ± 0.296
+BasicMotions,Natural,estimated,1.633 ± 0.509,0.397 ± 0.296
+Cricket,Natural,standard,1.931 ± 0.598,0.638 ± 0.088
+Cricket,Natural,estimated,1.931 ± 0.598,0.638 ± 0.088
+Epilepsy,Natural,standard,1.061 ± 0.096,0.864 ± 0.049
+Epilepsy,Natural,estimated,1.084 ± 0.105,0.865 ± 0.053
+ERing,Natural,standard,5.714 ± 0.200,0.000 ± 0.000
+ERing,Natural,estimated,5.720 ± 0.198,0.000 ± 0.000
+SelfRegulationSCP1,Natural,standard,1.417 ± 0.127,0.571 ± 0.121
+SelfRegulationSCP1,Natural,estimated,1.696 ± 0.180,0.295 ± 0.173
+UWaveGestureLibrary,Natural,standard,3.750 ± 0.823,0.207 ± 0.087
+UWaveGestureLibrary,Natural,estimated,3.750 ± 0.823,0.206 ± 0.087

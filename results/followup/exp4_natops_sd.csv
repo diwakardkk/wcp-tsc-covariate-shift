@@ -1,0 +1,7 @@
+grid,ncal,mean,sd,n_seeds,red_flag_sd_gt_0_10
+main grid (results/main/disjoint_Ccv),30,0.8742000000000001,0.0728496167914881,10,False
+main grid (results/main/disjoint_Ccv),60,0.861,0.0587064259212263,10,False
+main grid (results/main/disjoint_Ccv),90,0.8526,0.0553457817322652,10,False
+follow-up grid (channel_Ccv_grid30),30,0.8714000000000001,0.0712993688611617,10,False
+follow-up grid (channel_Ccv_grid30),60,0.86,0.0585756870306367,10,False
+follow-up grid (channel_Ccv_grid30),90,0.853,0.0557713586390401,10,False

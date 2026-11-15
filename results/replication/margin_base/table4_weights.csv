@@ -1,0 +1,21 @@
+dataset,shift,ess_ratio,max_weight
+Libras,Mild,0.836 ± 0.098,0.030 ± 0.013
+Libras,Moderate,0.668 ± 0.097,0.043 ± 0.013
+RacketSports,Mild,0.525 ± 0.175,0.073 ± 0.056
+RacketSports,Moderate,0.261 ± 0.144,0.189 ± 0.215
+NATOPS,Mild,0.234 ± 0.138,0.218 ± 0.211
+NATOPS,Moderate,0.107 ± 0.069,0.317 ± 0.251
+ArticularyWordRecognition,Mild,0.354 ± 0.143,0.123 ± 0.088
+ArticularyWordRecognition,Moderate,0.171 ± 0.108,0.250 ± 0.203
+BasicMotions,Mild,0.460 ± 0.172,0.081 ± 0.041
+BasicMotions,Moderate,0.110 ± 0.090,0.277 ± 0.197
+Cricket,Mild,0.505 ± 0.166,0.072 ± 0.053
+Cricket,Moderate,0.259 ± 0.123,0.154 ± 0.149
+Epilepsy,Mild,0.610 ± 0.164,0.057 ± 0.035
+Epilepsy,Moderate,0.157 ± 0.093,0.213 ± 0.119
+ERing,Mild,0.606 ± 0.107,0.053 ± 0.019
+ERing,Moderate,0.161 ± 0.125,0.249 ± 0.182
+SelfRegulationSCP1,Mild,0.782 ± 0.168,0.067 ± 0.175
+SelfRegulationSCP1,Moderate,0.629 ± 0.213,0.086 ± 0.175
+UWaveGestureLibrary,Mild,0.770 ± 0.120,0.038 ± 0.020
+UWaveGestureLibrary,Moderate,0.561 ± 0.151,0.064 ± 0.030

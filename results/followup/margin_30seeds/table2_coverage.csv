@@ -1,0 +1,10 @@
+dataset,shift,standard,oracle,estimated
+Libras,No shift,0.909 ± 0.027,0.909 ± 0.027,0.911 ± 0.031
+Libras,Mild,0.923 ± 0.036,0.925 ± 0.029,0.926 ± 0.031
+Libras,Moderate,0.937 ± 0.053,0.954 ± 0.029,0.949 ± 0.039
+RacketSports,No shift,0.909 ± 0.037,0.909 ± 0.037,0.900 ± 0.053
+RacketSports,Mild,0.899 ± 0.085,0.920 ± 0.028,0.900 ± 0.084
+RacketSports,Moderate,0.905 ± 0.160,0.943 ± 0.030,0.902 ± 0.173
+NATOPS,No shift,0.906 ± 0.035,0.906 ± 0.035,0.815 ± 0.150
+NATOPS,Mild,0.825 ± 0.134,0.922 ± 0.041,0.837 ± 0.134
+NATOPS,Moderate,0.696 ± 0.340,0.955 ± 0.031,0.786 ± 0.316

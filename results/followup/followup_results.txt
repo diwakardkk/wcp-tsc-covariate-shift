@@ -1,0 +1,96 @@
+==============================================================================
+EXPERIMENT 1 - CV grid for C extended to np.logspace(-5, 2, 30)
+==============================================================================
+
+--- Channel-mean tilt: selected C (per seed and lambda; 10 seeds) ---
+                  median_C  share_at_floor_1e-5  share_<=1e-4  share_<=1e-3  share_at_top_1e2  main_median_C (grid 1e-3..1e2)
+dataset      lam                                                                                                             
+Libras       0.0  0.000010                  0.7           0.7           0.7               0.0                        0.001000
+             0.5  0.023950                  0.0           0.0           0.0               0.0                        0.031623
+             1.0  0.072790                  0.0           0.0           0.0               0.0                        0.100000
+NATOPS       0.0  0.000010                  0.7           0.8           0.9               0.0                        0.001000
+             0.5  0.003557                  0.0           0.1           0.1               0.0                        0.003162
+             1.0  0.010809                  0.0           0.0           0.0               0.0                        0.010000
+RacketSports 0.0  0.000086                  0.5           0.5           0.9               0.0                        0.001000
+             0.5  0.003557                  0.0           0.0           0.0               0.0                        0.003162
+             1.0  0.013738                  0.0           0.0           0.0               0.0                        0.010000
+Finding: at lambda=0 the new floor 1e-5 is selected in 50%-70% of seeds; median C at lambda=0: Libras 1e-05, NATOPS 1e-05, RacketSports 9e-05.
+
+--- Channel-mean tilt: Estimated WCP (CV-C) at alpha=0.10, n_cal=90 (new grid vs main grid) ---
+                  cov_follow-up  sd_follow-up  ci_high_follow-up  ess_follow-up  full_set_follow-up  cov_main  sd_main  ess_main  fail_follow-up  fail_main
+dataset      lam                                                                                                                                           
+Libras       0.0          0.900         0.030              0.921          0.992               0.039     0.903    0.032     0.992           False      False
+             0.5          0.908         0.037              0.934          0.823               0.059     0.906    0.036     0.820           False      False
+             1.0          0.920         0.042              0.950          0.498               0.134     0.919    0.042     0.501           False      False
+RacketSports 0.0          0.923         0.016              0.935          0.997               0.013     0.925    0.019     0.992           False      False
+             0.5          0.915         0.047              0.948          0.904               0.013     0.916    0.046     0.907           False      False
+             1.0          0.917         0.047              0.951          0.762               0.015     0.917    0.044     0.763           False      False
+NATOPS       0.0          0.913         0.036              0.939          0.991               0.001     0.915    0.036     0.978           False      False
+             0.5          0.915         0.027              0.934          0.798               0.000     0.917    0.027     0.811           False      False
+             1.0          0.917         0.042              0.947          0.353               0.078     0.917    0.041     0.357           False      False
+Failures (95% CI below nominal) over all 81 settings: follow-up 0/81, main 0/81
+   Libras       follow-up 0/27   main 0/27
+   RacketSports follow-up 0/27   main 0/27
+   NATOPS       follow-up 0/27   main 0/27
+
+--- Low-margin tilt: selected C (per seed and lambda; 10 seeds) ---
+                  median_C  share_at_floor_1e-5  share_<=1e-4  share_<=1e-3  share_at_top_1e2  main_median_C (grid 1e-3..1e2)
+dataset      lam                                                                                                             
+Libras       0.0  0.000010                  0.7           0.7           0.7               0.0                        0.001000
+             0.5  0.003557                  0.2           0.2           0.3               0.0                        0.003162
+             1.0  0.672336                  0.0           0.0           0.0               0.0                        1.000000
+NATOPS       0.0  0.000010                  0.7           0.8           0.9               0.0                        0.001000
+             0.5  0.001487                  0.0           0.0           0.1               0.0                        0.001000
+             1.0  0.126896                  0.0           0.0           0.0               0.0                        0.100000
+RacketSports 0.0  0.000086                  0.5           0.5           0.9               0.0                        0.001000
+             0.5  0.004520                  0.0           0.1           0.3               0.0                        0.003162
+             1.0  0.072790                  0.0           0.0           0.0               0.0                        0.100000
+Finding: at lambda=0 the new floor 1e-5 is selected in 50%-70% of seeds; median C at lambda=0: Libras 1e-05, NATOPS 1e-05, RacketSports 9e-05.
+
+--- Low-margin tilt: Estimated WCP (CV-C) at alpha=0.10, n_cal=90 (new grid vs main grid) ---
+                  cov_follow-up  sd_follow-up  ci_high_follow-up  ess_follow-up  full_set_follow-up  cov_main  sd_main  ess_main  fail_follow-up  fail_main
+dataset      lam                                                                                                                                           
+Libras       0.0          0.900         0.030              0.921          0.992               0.039     0.903    0.032     0.992           False      False
+             0.5          0.913         0.045              0.945          0.960               0.094     0.913    0.045     0.963           False      False
+             1.0          0.953         0.027              0.972          0.706               0.210     0.953    0.027     0.712           False      False
+RacketSports 0.0          0.923         0.016              0.935          0.997               0.013     0.925    0.019     0.992           False      False
+             0.5          0.938         0.026              0.956          0.872               0.040     0.938    0.026     0.874           False      False
+             1.0          0.975         0.023              0.991          0.465               0.206     0.978    0.021     0.456           False      False
+NATOPS       0.0          0.913         0.036              0.939          0.991               0.001     0.915    0.036     0.978           False      False
+             0.5          0.915         0.087              0.977          0.888               0.025     0.917    0.084     0.898           False      False
+             1.0          0.934         0.102              1.007          0.289               0.259     0.919    0.104     0.282           False      False
+Failures (95% CI below nominal) over all 81 settings: follow-up 4/81, main 4/81
+   Libras       follow-up 0/27   main 0/27
+   RacketSports follow-up 2/27   main 2/27
+   NATOPS       follow-up 2/27   main 2/27
+
+==============================================================================
+EXPERIMENT 2 - NATOPS, low-margin tilt, lambda=1, alpha=0.10, n_cal=90, 30 seeds
+==============================================================================
+Seeds 0-9 reproduce the main study exactly: True
+                 seeds  n  std_mean  std_sd  std_min  std_max  orc_mean  orc_sd  diff_mean  pos  neg  wilcoxon_p
+      seeds 0-9 (main) 10    0.7698  0.2950    0.242    0.990    0.9456  0.0286     0.1758    5    4      0.2812
+seeds 10-29 (new only) 20    0.6596  0.3620    0.106    0.992    0.9599  0.0321     0.3003   14    4      0.0029
+   seeds 0-29 (all 30) 30    0.6963  0.3401    0.106    0.992    0.9551  0.0313     0.2588   19    8      0.0013
+Holm over the 4 primary tests using 'NATOPS low-margin oracle-standard, 10 seeds (main)': raw p = 0.2812, Holm-adjusted p = 0.5625
+Holm over the 4 primary tests using 'NATOPS low-margin oracle-standard, 30 seeds': raw p = 0.0013, Holm-adjusted p = 0.0051
+Caution: adding seeds after a non-significant result is optional stopping. Report the 30-seed result together with the 20 new seeds alone (row 'seeds 10-29'), which form an independent replication.
+
+==============================================================================
+EXPERIMENT 3 - Oracle WCP, NATOPS, low-margin tilt, lambda=1, alpha=0.10, n_cal=90
+==============================================================================
+           seeds  full_set_rate  full_set_sd  inf_threshold_rate  mean_set_size  coverage  coverage_non_full  n_test_points
+seeds 0-9 (main)         0.6150       0.0659              0.5976         4.2020    0.9456             0.8594           5000
+      seeds 0-29         0.6291       0.1292              0.6083         4.2884    0.9551             0.8772          15000
+A full set contains all 6 NATOPS classes. Table 5's 0.598 is the infinite-threshold rate; a full set can also arise from a finite threshold, so full_set_rate >= inf_threshold_rate.
+
+==============================================================================
+EXPERIMENT 4 - SD of Est. CV-C, NATOPS, channel-mean tilt, alpha=0.20, lambda=1
+==============================================================================
+                                 grid  ncal   mean     sd  n_seeds  red_flag_sd_gt_0_10
+main grid (results/main/disjoint_Ccv)    30 0.8742 0.0728       10                False
+main grid (results/main/disjoint_Ccv)    60 0.8610 0.0587       10                False
+main grid (results/main/disjoint_Ccv)    90 0.8526 0.0553       10                False
+  follow-up grid (channel_Ccv_grid30)    30 0.8714 0.0713       10                False
+  follow-up grid (channel_Ccv_grid30)    60 0.8600 0.0586       10                False
+  follow-up grid (channel_Ccv_grid30)    90 0.8530 0.0558       10                False

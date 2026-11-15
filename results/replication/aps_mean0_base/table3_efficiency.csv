@@ -1,0 +1,91 @@
+dataset,shift,method,mean_size,singleton_rate
+Libras,No shift,standard,2.995 ± 1.110,0.596 ± 0.099
+Libras,No shift,oracle,2.995 ± 1.110,0.596 ± 0.099
+Libras,No shift,estimated,3.053 ± 1.219,0.594 ± 0.111
+Libras,Mild,standard,2.910 ± 1.042,0.598 ± 0.091
+Libras,Mild,oracle,3.341 ± 1.291,0.555 ± 0.121
+Libras,Mild,estimated,3.577 ± 1.999,0.541 ± 0.166
+Libras,Moderate,standard,2.820 ± 1.010,0.601 ± 0.092
+Libras,Moderate,oracle,4.092 ± 1.985,0.501 ± 0.165
+Libras,Moderate,estimated,4.123 ± 2.121,0.494 ± 0.176
+RacketSports,No shift,standard,1.282 ± 0.129,0.732 ± 0.063
+RacketSports,No shift,oracle,1.282 ± 0.129,0.732 ± 0.063
+RacketSports,No shift,estimated,1.275 ± 0.178,0.731 ± 0.078
+RacketSports,Mild,standard,1.263 ± 0.135,0.751 ± 0.061
+RacketSports,Mild,oracle,1.244 ± 0.136,0.757 ± 0.062
+RacketSports,Mild,estimated,1.254 ± 0.175,0.754 ± 0.079
+RacketSports,Moderate,standard,1.268 ± 0.122,0.748 ± 0.052
+RacketSports,Moderate,oracle,1.243 ± 0.133,0.754 ± 0.057
+RacketSports,Moderate,estimated,1.242 ± 0.169,0.752 ± 0.077
+NATOPS,No shift,standard,1.125 ± 0.085,0.844 ± 0.025
+NATOPS,No shift,oracle,1.125 ± 0.085,0.844 ± 0.025
+NATOPS,No shift,estimated,1.135 ± 0.210,0.802 ± 0.080
+NATOPS,Mild,standard,1.119 ± 0.089,0.846 ± 0.026
+NATOPS,Mild,oracle,1.131 ± 0.099,0.845 ± 0.027
+NATOPS,Mild,estimated,1.107 ± 0.233,0.786 ± 0.106
+NATOPS,Moderate,standard,1.113 ± 0.112,0.858 ± 0.038
+NATOPS,Moderate,oracle,1.819 ± 0.427,0.738 ± 0.078
+NATOPS,Moderate,estimated,1.600 ± 0.493,0.705 ± 0.100
+ArticularyWordRecognition,No shift,standard,2.691 ± 0.615,0.735 ± 0.028
+ArticularyWordRecognition,No shift,oracle,2.691 ± 0.615,0.735 ± 0.028
+ArticularyWordRecognition,No shift,estimated,2.786 ± 0.743,0.729 ± 0.031
+ArticularyWordRecognition,Mild,standard,2.608 ± 0.700,0.744 ± 0.030
+ArticularyWordRecognition,Mild,oracle,2.595 ± 0.716,0.744 ± 0.031
+ArticularyWordRecognition,Mild,estimated,2.765 ± 0.919,0.723 ± 0.041
+ArticularyWordRecognition,Moderate,standard,2.462 ± 0.571,0.760 ± 0.032
+ArticularyWordRecognition,Moderate,oracle,2.568 ± 0.702,0.748 ± 0.033
+ArticularyWordRecognition,Moderate,estimated,3.564 ± 1.027,0.715 ± 0.055
+BasicMotions,No shift,standard,1.055 ± 0.098,0.868 ± 0.048
+BasicMotions,No shift,oracle,1.055 ± 0.098,0.868 ± 0.048
+BasicMotions,No shift,estimated,1.064 ± 0.100,0.867 ± 0.048
+BasicMotions,Mild,standard,1.080 ± 0.122,0.858 ± 0.053
+BasicMotions,Mild,oracle,1.062 ± 0.074,0.858 ± 0.063
+BasicMotions,Mild,estimated,1.061 ± 0.114,0.846 ± 0.064
+BasicMotions,Moderate,standard,1.100 ± 0.190,0.834 ± 0.075
+BasicMotions,Moderate,oracle,1.071 ± 0.131,0.831 ± 0.086
+BasicMotions,Moderate,estimated,1.090 ± 0.187,0.826 ± 0.093
+Cricket,No shift,standard,1.769 ± 0.330,0.741 ± 0.035
+Cricket,No shift,oracle,1.769 ± 0.330,0.741 ± 0.035
+Cricket,No shift,estimated,1.850 ± 0.429,0.736 ± 0.042
+Cricket,Mild,standard,1.945 ± 0.537,0.710 ± 0.060
+Cricket,Mild,oracle,2.166 ± 0.689,0.694 ± 0.065
+Cricket,Mild,estimated,2.213 ± 0.656,0.686 ± 0.055
+Cricket,Moderate,standard,2.508 ± 1.645,0.632 ± 0.205
+Cricket,Moderate,oracle,4.424 ± 2.359,0.516 ± 0.195
+Cricket,Moderate,estimated,4.527 ± 2.293,0.503 ± 0.193
+Epilepsy,No shift,standard,0.973 ± 0.068,0.872 ± 0.034
+Epilepsy,No shift,oracle,0.973 ± 0.068,0.872 ± 0.034
+Epilepsy,No shift,estimated,0.982 ± 0.066,0.875 ± 0.034
+Epilepsy,Mild,standard,0.966 ± 0.067,0.870 ± 0.036
+Epilepsy,Mild,oracle,0.997 ± 0.080,0.880 ± 0.035
+Epilepsy,Mild,estimated,1.024 ± 0.154,0.869 ± 0.053
+Epilepsy,Moderate,standard,0.967 ± 0.061,0.883 ± 0.030
+Epilepsy,Moderate,oracle,1.030 ± 0.141,0.878 ± 0.041
+Epilepsy,Moderate,estimated,1.021 ± 0.118,0.881 ± 0.038
+ERing,No shift,standard,1.067 ± 0.075,0.856 ± 0.022
+ERing,No shift,oracle,1.067 ± 0.075,0.856 ± 0.022
+ERing,No shift,estimated,1.067 ± 0.085,0.854 ± 0.026
+ERing,Mild,standard,1.067 ± 0.069,0.858 ± 0.028
+ERing,Mild,oracle,1.075 ± 0.076,0.856 ± 0.026
+ERing,Mild,estimated,1.076 ± 0.094,0.853 ± 0.032
+ERing,Moderate,standard,1.059 ± 0.078,0.856 ± 0.030
+ERing,Moderate,oracle,1.372 ± 0.310,0.787 ± 0.057
+ERing,Moderate,estimated,1.388 ± 0.315,0.787 ± 0.053
+SelfRegulationSCP1,No shift,standard,1.307 ± 0.125,0.666 ± 0.106
+SelfRegulationSCP1,No shift,oracle,1.307 ± 0.125,0.666 ± 0.106
+SelfRegulationSCP1,No shift,estimated,1.323 ± 0.168,0.642 ± 0.124
+SelfRegulationSCP1,Mild,standard,1.352 ± 0.135,0.623 ± 0.114
+SelfRegulationSCP1,Mild,oracle,1.393 ± 0.151,0.584 ± 0.133
+SelfRegulationSCP1,Mild,estimated,1.386 ± 0.156,0.589 ± 0.137
+SelfRegulationSCP1,Moderate,standard,1.377 ± 0.160,0.600 ± 0.143
+SelfRegulationSCP1,Moderate,oracle,1.499 ± 0.154,0.477 ± 0.132
+SelfRegulationSCP1,Moderate,estimated,1.482 ± 0.193,0.482 ± 0.148
+UWaveGestureLibrary,No shift,standard,1.949 ± 0.304,0.550 ± 0.072
+UWaveGestureLibrary,No shift,oracle,1.949 ± 0.304,0.550 ± 0.072
+UWaveGestureLibrary,No shift,estimated,2.143 ± 0.710,0.520 ± 0.121
+UWaveGestureLibrary,Mild,standard,1.949 ± 0.338,0.552 ± 0.076
+UWaveGestureLibrary,Mild,oracle,1.978 ± 0.428,0.548 ± 0.093
+UWaveGestureLibrary,Mild,estimated,2.024 ± 0.437,0.544 ± 0.095
+UWaveGestureLibrary,Moderate,standard,1.831 ± 0.306,0.589 ± 0.079
+UWaveGestureLibrary,Moderate,oracle,3.065 ± 0.579,0.460 ± 0.093
+UWaveGestureLibrary,Moderate,estimated,2.890 ± 0.679,0.483 ± 0.112

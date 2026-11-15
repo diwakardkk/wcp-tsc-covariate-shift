@@ -1,0 +1,21 @@
+==============================================================================
+Independent confirmation of H2 (plan: docs/H2_fresh_plan.txt)
+==============================================================================
+Seeds in this run: 40-69. Seeds used before in NATOPS low-margin runs: 0-39. Overlap: none
+
+test                                      comparison seeds  n  mean_x   sd_x  mean_y   sd_y    diff  pos  neg      p  holm_p
+  H1    Libras, channel, lambda=1, oracle - standard 10-39 30  0.9311 0.0432  0.8983 0.0425  0.0328   19    5 0.0013  0.0017
+  H2 NATOPS, low-margin, lambda=1, oracle - standard 40-69 30  0.9533 0.0268  0.6851 0.3222  0.2683   18    9 0.0008  0.0017
+  H3   NATOPS, channel, lambda=0, estimated - oracle 10-39 30  0.8011 0.1545  0.9003 0.0348 -0.0992    2   25 0.0000  0.0001
+  H4   NATOPS, channel, lambda=1, estimated - oracle 10-39 30  0.8046 0.1604  0.9020 0.0393 -0.0974    6   22 0.0001  0.0002
+
+H2 on fresh seeds 40-69: standard 0.685 +/- 0.322, oracle 0.953 +/- 0.027, difference +0.268 (18/9), p = 0.0008386, Holm p = 0.001677
+Decision (pre-specified): H2 CONFIRMED. Holm family: 4/4 significant.
+
+Failures (95% CI below 1-alpha) over 81 settings, seeds 40-69:
+   estimated           23  {'Libras': 6, 'RacketSports': 0, 'NATOPS': 17}
+   estimated_clip10    11  {'Libras': 6, 'RacketSports': 0, 'NATOPS': 5}
+   estimated_clip20    16  {'Libras': 6, 'RacketSports': 0, 'NATOPS': 10}
+   oracle               0  {'Libras': 0, 'RacketSports': 0, 'NATOPS': 0}
+   standard            24  {'Libras': 6, 'RacketSports': 6, 'NATOPS': 12}
+Oracle full-set rate (NATOPS, lambda=1): 0.586; coverage on non-full sets 0.886

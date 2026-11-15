@@ -1,0 +1,28 @@
+dataset,shift,method,mean_size,singleton_rate
+Libras,No shift,standard,1.282 ± 0.355,0.893 ± 0.071
+Libras,No shift,oracle,1.282 ± 0.355,0.893 ± 0.071
+Libras,No shift,estimated,1.283 ± 0.362,0.885 ± 0.069
+Libras,Mild,standard,1.262 ± 0.356,0.905 ± 0.066
+Libras,Mild,oracle,1.332 ± 0.410,0.885 ± 0.069
+Libras,Mild,estimated,1.305 ± 0.424,0.885 ± 0.066
+Libras,Moderate,standard,1.256 ± 0.362,0.918 ± 0.059
+Libras,Moderate,oracle,2.055 ± 0.638,0.816 ± 0.076
+Libras,Moderate,estimated,2.101 ± 0.821,0.829 ± 0.080
+RacketSports,No shift,standard,0.993 ± 0.048,0.960 ± 0.021
+RacketSports,No shift,oracle,0.993 ± 0.048,0.960 ± 0.021
+RacketSports,No shift,estimated,0.992 ± 0.070,0.946 ± 0.033
+RacketSports,Mild,standard,0.996 ± 0.047,0.964 ± 0.022
+RacketSports,Mild,oracle,0.978 ± 0.098,0.927 ± 0.050
+RacketSports,Mild,estimated,0.948 ± 0.098,0.915 ± 0.063
+RacketSports,Moderate,standard,0.997 ± 0.045,0.963 ± 0.022
+RacketSports,Moderate,oracle,0.999 ± 0.102,0.926 ± 0.039
+RacketSports,Moderate,estimated,0.988 ± 0.114,0.920 ± 0.044
+NATOPS,No shift,standard,0.967 ± 0.048,0.951 ± 0.030
+NATOPS,No shift,oracle,0.967 ± 0.048,0.951 ± 0.030
+NATOPS,No shift,estimated,0.735 ± 0.268,0.671 ± 0.256
+NATOPS,Mild,standard,0.965 ± 0.054,0.947 ± 0.033
+NATOPS,Mild,oracle,0.967 ± 0.068,0.938 ± 0.040
+NATOPS,Mild,estimated,0.981 ± 0.212,0.764 ± 0.157
+NATOPS,Moderate,standard,0.978 ± 0.033,0.966 ± 0.019
+NATOPS,Moderate,oracle,1.908 ± 0.454,0.744 ± 0.084
+NATOPS,Moderate,estimated,1.400 ± 0.578,0.708 ± 0.192

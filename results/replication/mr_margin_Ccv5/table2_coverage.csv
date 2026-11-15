@@ -1,0 +1,31 @@
+dataset,shift,standard,oracle,estimated
+Libras,No shift,0.899 ± 0.040,0.899 ± 0.040,0.900 ± 0.040
+Libras,Mild,0.727 ± 0.127,0.938 ± 0.035,0.760 ± 0.120
+Libras,Moderate,0.428 ± 0.287,0.958 ± 0.039,0.734 ± 0.239
+RacketSports,No shift,0.905 ± 0.023,0.905 ± 0.023,0.907 ± 0.024
+RacketSports,Mild,0.780 ± 0.090,0.924 ± 0.027,0.856 ± 0.096
+RacketSports,Moderate,0.590 ± 0.217,0.945 ± 0.035,0.891 ± 0.127
+NATOPS,No shift,0.909 ± 0.031,0.909 ± 0.031,0.912 ± 0.036
+NATOPS,Mild,0.810 ± 0.121,0.935 ± 0.031,0.890 ± 0.097
+NATOPS,Moderate,0.661 ± 0.290,0.946 ± 0.041,0.918 ± 0.184
+ArticularyWordRecognition,No shift,0.906 ± 0.036,0.906 ± 0.036,0.907 ± 0.036
+ArticularyWordRecognition,Mild,0.552 ± 0.078,0.968 ± 0.029,0.690 ± 0.156
+ArticularyWordRecognition,Moderate,0.065 ± 0.070,0.986 ± 0.021,0.924 ± 0.184
+BasicMotions,No shift,0.916 ± 0.033,0.916 ± 0.033,0.915 ± 0.034
+BasicMotions,Mild,0.606 ± 0.035,1.000 ± 0.000,0.800 ± 0.188
+BasicMotions,Moderate,0.118 ± 0.059,1.000 ± 0.000,1.000 ± 0.000
+Cricket,No shift,0.892 ± 0.035,0.892 ± 0.035,0.894 ± 0.033
+Cricket,Mild,0.459 ± 0.081,0.978 ± 0.042,0.874 ± 0.179
+Cricket,Moderate,0.024 ± 0.028,0.998 ± 0.006,0.996 ± 0.015
+Epilepsy,No shift,0.908 ± 0.030,0.908 ± 0.030,0.910 ± 0.032
+Epilepsy,Mild,0.532 ± 0.095,0.983 ± 0.030,0.733 ± 0.184
+Epilepsy,Moderate,0.059 ± 0.124,0.999 ± 0.003,0.917 ± 0.217
+ERing,No shift,0.895 ± 0.037,0.895 ± 0.037,0.898 ± 0.035
+ERing,Mild,0.446 ± 0.119,0.977 ± 0.024,0.732 ± 0.214
+ERing,Moderate,0.022 ± 0.021,0.994 ± 0.021,0.950 ± 0.182
+SelfRegulationSCP1,No shift,0.907 ± 0.029,0.907 ± 0.029,0.910 ± 0.033
+SelfRegulationSCP1,Mild,0.791 ± 0.138,0.924 ± 0.030,0.808 ± 0.136
+SelfRegulationSCP1,Moderate,0.617 ± 0.348,0.949 ± 0.025,0.765 ± 0.298
+UWaveGestureLibrary,No shift,0.913 ± 0.033,0.913 ± 0.033,0.914 ± 0.034
+UWaveGestureLibrary,Mild,0.699 ± 0.141,0.944 ± 0.032,0.763 ± 0.152
+UWaveGestureLibrary,Moderate,0.361 ± 0.348,0.968 ± 0.037,0.699 ± 0.325

@@ -1,0 +1,7 @@
+dataset,shift,ess_ratio,max_weight
+Libras,Mild,0.634 ± 0.165,0.046 ± 0.013
+Libras,Moderate,0.233 ± 0.069,0.114 ± 0.039
+RacketSports,Mild,0.552 ± 0.168,0.063 ± 0.024
+RacketSports,Moderate,0.135 ± 0.042,0.179 ± 0.046
+NATOPS,Mild,0.398 ± 0.130,0.093 ± 0.022
+NATOPS,Moderate,0.083 ± 0.039,0.277 ± 0.091

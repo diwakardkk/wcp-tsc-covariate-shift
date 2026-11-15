@@ -1,0 +1,33 @@
+Pre-specified plan for the independent confirmation of H2 (written 2026-11-15, before the run)
+=========================================================================================
+
+Problem
+  In the replication (results_v3, seeds 10-39), H2 (NATOPS, low-margin tilt) shares seeds 10-29 with the
+  30-seed extension of the main study (results_v3_1/margin_30seeds, seeds 0-29). The random streams are
+  SeedSequence([base_seed, dataset_index, seed]), so those 20 seeds give identical samples. H2 in the replication
+  is therefore not independent.
+
+Fix
+  Run the same configuration on seeds 40-69, which no earlier run has used (v2: 0-9; v3.1: 0-29; v3: 10-39).
+
+Configuration (identical to results_v3_1/margin_30seeds except the seeds)
+  run_experiment.py --protocol disjoint --population both --datasets Libras RacketSports NATOPS
+                    --shift-feature margin --n-seeds 30 --seed-offset 40
+  Classifier LightGBM, LAC score, logistic ratio model C=1 (pre-specified); clipping 10/20/inf as always.
+
+Hypothesis H2 (unchanged)
+  NATOPS, low-margin tilt, lambda = 1, alpha = 0.10, n_cal = 90.
+  Paired per-seed coverage difference oracle WCP - standard CP over seeds 40-69 (n = 30).
+  Two-sided Wilcoxon signed-rank test (scipy.stats.wilcoxon, default zero handling).
+
+Family and correction
+  Holm over four tests: H2 from seeds 40-69, and H1, H3, H4 from the replication (results_v3/mean0_base,
+  seeds 10-39), which are already independent of every earlier run.
+    H1: Libras, channel-mean tilt, lambda = 1: oracle - standard
+    H3: NATOPS, channel-mean tilt, lambda = 0: estimated (C = 1) - oracle
+    H4: NATOPS, channel-mean tilt, lambda = 1: estimated (C = 1) - oracle
+  All at alpha = 0.10, n_cal = 90.
+
+Decision rule
+  H2 is confirmed if its Holm-adjusted p < 0.05 and the mean difference is positive.
+  The result is reported whatever it is; no further seeds will be added.
